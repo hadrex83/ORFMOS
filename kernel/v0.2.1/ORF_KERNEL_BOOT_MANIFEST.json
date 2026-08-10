@@ -1,0 +1,100 @@
+{
+  "authority": "LOCAL_TREE_PLUS_SHA256_WITH_OPTIONAL_BIOS_MANIFEST_PIN",
+  "boot_state_contract": {
+    "live_heartbeat_transport": "SHARED_RUNTIME_GLOBALS",
+    "local_snapshot_path": "/content/.orf_runtime/ORF_BOOT_STATE.json",
+    "optional_sink": "ORF_BIOS_BOOT_STATE_SINK",
+    "schema": "ORF_BOOT_STATE_V0_1"
+  },
+  "bootstrap": {
+    "path": "bootstrap/ORF_KERNEL_BOOTSTRAP.py",
+    "sha256": "21bc96f64d411e4915e10a20a2a066d5f19c883283c62370ce7afa8619b8ad6c",
+    "size_bytes": 4981
+  },
+  "description": "Provider-neutral ORF Kernel. BIOS owns source transport and stages a verified local tree.",
+  "distribution_contract": {
+    "kernel_transport_dependencies": [],
+    "local_source_root_contract": "ORF_KERNEL_SOURCE_ROOT",
+    "manifest_pin_contract": "ORF_KERNEL_EXPECTED_MANIFEST_SHA256",
+    "source_agnostic": true,
+    "transport_owner": "ORF_BIOS"
+  },
+  "entrypoint": {
+    "execution": "BIOS_RERUNNABLE_NOTEBOOK_ENTRYPOINT",
+    "path": "ORF Kernel.ipynb",
+    "sha256": "6f69b5a9fbd4fa2355ea02018628b3cf983c4c28c8dc6f79ad5505a37923d68f",
+    "size_bytes": 967
+  },
+  "kernel_id": "orf.kernel.runtime",
+  "modules": [
+    {
+      "execution": "EXEC_IN_SHARED_KERNEL_GLOBALS",
+      "file_name": "005_boot_state_publisher.py",
+      "module_id": "boot_state_publisher",
+      "order": 5,
+      "sha256": "45e3c415ed8fab66956b3c76ee452e93404a204b916dc293c60fd7629f1c4e6d",
+      "size_bytes": 8253
+    },
+    {
+      "execution": "EXEC_IN_SHARED_KERNEL_GLOBALS",
+      "file_name": "01_loader_core.py",
+      "module_id": "loader_core",
+      "order": 10,
+      "sha256": "fca9b4c9e869144ac1384196e3aafe2dd7cfd1589dcc5b1321a1a5755ba75df4",
+      "size_bytes": 9448
+    },
+    {
+      "execution": "EXEC_IN_SHARED_KERNEL_GLOBALS",
+      "file_name": "02_protected_authority.py",
+      "module_id": "protected_authority",
+      "order": 20,
+      "sha256": "2639fb540987a4ead69c1140519a8048695507713f4ec42de13d07eb8567cf97",
+      "size_bytes": 6121
+    },
+    {
+      "execution": "EXEC_IN_SHARED_KERNEL_GLOBALS",
+      "file_name": "025_recovery_hydrate.py",
+      "module_id": "recovery_hydrate",
+      "order": 25,
+      "sha256": "45279f762b75008b09abef73dfae7ca0315fc5c0e39e3d9f626c761764fa8278",
+      "size_bytes": 9279
+    },
+    {
+      "execution": "EXEC_IN_SHARED_KERNEL_GLOBALS",
+      "file_name": "03_runtime_dispatch.py",
+      "module_id": "runtime_dispatch",
+      "order": 30,
+      "sha256": "e04d8b85d6cf7d8e2256842c190b04f4948c754a6385fae97f97dca1d7d238d1",
+      "size_bytes": 2171
+    },
+    {
+      "execution": "EXEC_IN_SHARED_KERNEL_GLOBALS",
+      "file_name": "04_recovery_snapshot.py",
+      "module_id": "recovery_snapshot",
+      "order": 40,
+      "sha256": "f0472d320c69bba226028e11b021114c9fa6a605e0e8193da0c05c202046e472",
+      "size_bytes": 4250
+    }
+  ],
+  "persistence_contract": {
+    "provider_specific_ids_in_kernel": false,
+    "writer": "ORF_BIOS_PERSIST_WRITE or local ORF_KERNEL_PERSIST_ROOT"
+  },
+  "recovery_contract": {
+    "resource_ref_required": true,
+    "runtime_target_resource_ref": "recovery/ORF_RUNTIME_TARGET.json",
+    "secret_material_persisted": false
+  },
+  "resource_contract": {
+    "logical_refs": true,
+    "provider_specific_ids_in_kernel": false,
+    "reader": "ORF_BIOS_RESOURCE_READ or staged ORF_KERNEL_RESOURCE_ROOT"
+  },
+  "runtime_contract": {
+    "package_name": "ORF_NODE_PACKAGE.zip",
+    "request_name": "ORF_RUNTIME_REQUEST.json",
+    "result_name": "ORF_RUNTIME_RESULT.json"
+  },
+  "schema": "ORF_KERNEL_BOOT_MANIFEST_V0_2",
+  "version": "0.2.1"
+}

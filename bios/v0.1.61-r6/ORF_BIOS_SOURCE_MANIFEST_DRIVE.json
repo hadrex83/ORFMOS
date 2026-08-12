@@ -1,0 +1,52 @@
+{
+  "authority": "DRIVE_FILE_ID_PLUS_SHA256",
+  "bios_version": "0.1.61-R6",
+  "drive_mount_required": false,
+  "execution_model": "ORDERED_SHARED_GLOBALS",
+  "module_count": 5,
+  "module_folder_id": "1ONGCewtrMpgUj__kGL7Hbrlf865qhHsM",
+  "modules": [
+    {
+      "bytes": 101256,
+      "drive_file_id": "14mI91F1BtEszpNXZHPVD2R0F0-ULaa2Y",
+      "file_name": "010_ORF_BIOS_RUNTIME_BOOT_ROOT_V0_1_34_SHUTDOWN_CLIENT_HANDOFF_FIX.py",
+      "module_id": "010_ORF_BIOS_RUNTIME_BOOT_ROOT_V0_1_34_SHUTDOWN_CLIENT_HANDOFF_FIX",
+      "order": 10,
+      "sha256": "a14d516dfdbc11534f10dda37b78b0c7a0d6a95e39e243329e7e5f0e1ca48685"
+    },
+    {
+      "bytes": 10547,
+      "drive_file_id": "1Kios_4CidwoUDD2wxBRyvyzM3FFOGETY",
+      "file_name": "020_ORF_BIOS_STATE_CONTRACTS_V0_1_20_QUIESCE_SHUTDOWN.py",
+      "module_id": "020_ORF_BIOS_STATE_CONTRACTS_V0_1_20_QUIESCE_SHUTDOWN",
+      "order": 20,
+      "sha256": "f252d1aa964f43a99451a0d0bfe2f4965f8db8438c63d4b4c87854beb1d52bab"
+    },
+    {
+      "bytes": 194969,
+      "drive_file_id": "1gN7rQgZ4FQFfo7knKd3_2WNvHvQYBS-_",
+      "file_name": "030_ORF_BIOS_GRADIO_PRESENTATION_V0_1_61_R5_SHUTDOWN_CLIENT_HANDOFF_FIX.py",
+      "module_id": "030_ORF_BIOS_GRADIO_PRESENTATION_V0_1_61_R5_SHUTDOWN_CLIENT_HANDOFF_FIX",
+      "order": 30,
+      "sha256": "def97023a8a1eff60746f47f46b66f375aa01b18b7cac8b38bfef5bee24dcd91"
+    },
+    {
+      "bytes": 26057,
+      "drive_file_id": "1FVNTGwcNGXkharYP80ynRybp05RNjyE2",
+      "file_name": "040_ORF_BIOS_DEVELOPMENT_LAUNCH_V0_1_55_QUIESCE_SHUTDOWN.py",
+      "module_id": "040_ORF_BIOS_DEVELOPMENT_LAUNCH_V0_1_55_QUIESCE_SHUTDOWN",
+      "order": 40,
+      "sha256": "83ded714b1609968cad40e422cf05a538225fa9524ebcbd33c66c5bdf2039719"
+    },
+    {
+      "bytes": 13553,
+      "drive_file_id": "1cRgFNwZEc75ZCJQtGgo2pxYAtlvTWLmR",
+      "file_name": "050_ORFMOS_HOME_DESKTOP_V0_1_6_LIVE_URL_REVALIDATION.py",
+      "module_id": "050_ORFMOS_HOME_DESKTOP_V0_1_6_LIVE_URL_REVALIDATION",
+      "order": 50,
+      "sha256": "9a8b3d21e599fe314dcedbfb5af2e320c2c8f62d64525f55fe6893d3f210ae0c"
+    }
+  ],
+  "revision": "R6_SHUTDOWN_CLIENT_HANDOFF_ACK",
+  "schema": "ORF_BIOS_MODULE_MANIFEST_V0_1"
+}

@@ -1,0 +1,59 @@
+{
+  "schema": "ORF_BIOS_MODULE_MANIFEST_V0_1",
+  "bios_version": "0.1.61-R6",
+  "revision": "R6_SHUTDOWN_CLIENT_HANDOFF_ACK",
+  "authority": "ARTIFACT_PATH_PLUS_SHA256",
+  "provider_neutral": true,
+  "drive_mount_required": false,
+  "execution_model": "ORDERED_SHARED_GLOBALS",
+  "module_count": 5,
+  "source_provenance": {
+    "provider": "GOOGLE_DRIVE",
+    "manifest_file_id": "1izhdO9SjuSk4BuJNnyCMGqGgNeOPEZSY",
+    "manifest_file_name": "ORF_BIOS_MODULE_MANIFEST_V0_1_61_R6_SHUTDOWN_CLIENT_HANDOFF_FIX.json",
+    "manifest_sha256": "c1d5b5a2f4819d2d136695171008c01ee4ad3ad1b07de3c7aa3ff48bb8e2090f",
+    "manifest_bytes": 2178
+  },
+  "modules": [
+    {
+      "bytes": 101256,
+      "file_name": "010_ORF_BIOS_RUNTIME_BOOT_ROOT_V0_1_34_SHUTDOWN_CLIENT_HANDOFF_FIX.py",
+      "module_id": "010_ORF_BIOS_RUNTIME_BOOT_ROOT_V0_1_34_SHUTDOWN_CLIENT_HANDOFF_FIX",
+      "order": 10,
+      "path": "modules/010_ORF_BIOS_RUNTIME_BOOT_ROOT_V0_1_34_SHUTDOWN_CLIENT_HANDOFF_FIX.py",
+      "sha256": "a14d516dfdbc11534f10dda37b78b0c7a0d6a95e39e243329e7e5f0e1ca48685"
+    },
+    {
+      "bytes": 10547,
+      "file_name": "020_ORF_BIOS_STATE_CONTRACTS_V0_1_20_QUIESCE_SHUTDOWN.py",
+      "module_id": "020_ORF_BIOS_STATE_CONTRACTS_V0_1_20_QUIESCE_SHUTDOWN",
+      "order": 20,
+      "path": "modules/020_ORF_BIOS_STATE_CONTRACTS_V0_1_20_QUIESCE_SHUTDOWN.py",
+      "sha256": "f252d1aa964f43a99451a0d0bfe2f4965f8db8438c63d4b4c87854beb1d52bab"
+    },
+    {
+      "bytes": 194969,
+      "file_name": "030_ORF_BIOS_GRADIO_PRESENTATION_V0_1_61_R5_SHUTDOWN_CLIENT_HANDOFF_FIX.py",
+      "module_id": "030_ORF_BIOS_GRADIO_PRESENTATION_V0_1_61_R5_SHUTDOWN_CLIENT_HANDOFF_FIX",
+      "order": 30,
+      "path": "modules/030_ORF_BIOS_GRADIO_PRESENTATION_V0_1_61_R5_SHUTDOWN_CLIENT_HANDOFF_FIX.py",
+      "sha256": "def97023a8a1eff60746f47f46b66f375aa01b18b7cac8b38bfef5bee24dcd91"
+    },
+    {
+      "bytes": 26057,
+      "file_name": "040_ORF_BIOS_DEVELOPMENT_LAUNCH_V0_1_55_QUIESCE_SHUTDOWN.py",
+      "module_id": "040_ORF_BIOS_DEVELOPMENT_LAUNCH_V0_1_55_QUIESCE_SHUTDOWN",
+      "order": 40,
+      "path": "modules/040_ORF_BIOS_DEVELOPMENT_LAUNCH_V0_1_55_QUIESCE_SHUTDOWN.py",
+      "sha256": "83ded714b1609968cad40e422cf05a538225fa9524ebcbd33c66c5bdf2039719"
+    },
+    {
+      "bytes": 13553,
+      "file_name": "050_ORFMOS_HOME_DESKTOP_V0_1_6_LIVE_URL_REVALIDATION.py",
+      "module_id": "050_ORFMOS_HOME_DESKTOP_V0_1_6_LIVE_URL_REVALIDATION",
+      "order": 50,
+      "path": "modules/050_ORFMOS_HOME_DESKTOP_V0_1_6_LIVE_URL_REVALIDATION.py",
+      "sha256": "9a8b3d21e599fe314dcedbfb5af2e320c2c8f62d64525f55fe6893d3f210ae0c"
+    }
+  ]
+}

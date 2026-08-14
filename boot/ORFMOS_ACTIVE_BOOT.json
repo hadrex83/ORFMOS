@@ -1,0 +1,27 @@
+{
+  "schema": "ORFMOS_ACTIVE_BOOT_SELECTOR_V0_1",
+  "state": "ACTIVE",
+  "selector_generation": 1,
+  "authority": "MUTABLE_SELECTOR_TO_IMMUTABLE_MANIFEST",
+  "provider": "GITHUB_RAW",
+  "repository": "hadrex83/ORFMOS",
+  "branch": "main",
+  "created_utc": "2026-08-14T21:32:00Z",
+  "manifest": {
+    "path": "bios/v0.1.61-r6/ORF_BIOS_MODULE_MANIFEST.json",
+    "url": "https://raw.githubusercontent.com/hadrex83/ORFMOS/main/bios/v0.1.61-r6/ORF_BIOS_MODULE_MANIFEST.json",
+    "bytes": 2629,
+    "sha256": "18c74294439d84de07893fb029bdf154e38b8e9cd931e2a25965645ea8cc8895",
+    "bios_version": "0.1.61-R6",
+    "revision": "R6_SHUTDOWN_CLIENT_HANDOFF_ACK",
+    "publication_state": "IMMUTABLE"
+  },
+  "policy": {
+    "allowed_host": "raw.githubusercontent.com",
+    "allowed_repository": "hadrex83/ORFMOS",
+    "execution_model": "ORDERED_SHARED_GLOBALS",
+    "loader_semantics": "exec(compile(...), globals(), globals())",
+    "verify_all_before_execute": true,
+    "drive_mount_required": false
+  }
+}

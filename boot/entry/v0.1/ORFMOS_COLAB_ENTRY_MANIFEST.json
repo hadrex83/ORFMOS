@@ -1,0 +1,37 @@
+{
+  "authority": "ARTIFACT_PATH_PLUS_SHA256",
+  "component_count": 2,
+  "components": [
+    {
+      "bytes": 6335,
+      "order": 10,
+      "path": "boot/host/v0.1/ORFMOS_COLAB_BOOT_AUTHORIZATION_GATE_V0_1.py",
+      "publication_state": "IMMUTABLE",
+      "role": "HOST_AUTHORIZATION_GATE",
+      "sha256": "977f5a811b45722e9c2076633bf52db118ef952db5c4a264bc9f95b223ac4128",
+      "url": "https://raw.githubusercontent.com/hadrex83/ORFMOS/main/boot/host/v0.1/ORFMOS_COLAB_BOOT_AUTHORIZATION_GATE_V0_1.py"
+    },
+    {
+      "bytes": 10356,
+      "order": 20,
+      "path": "boot/ORFMOS_BOOTSTRAP_V0_1.py",
+      "publication_state": "IMMUTABLE",
+      "role": "DURABLE_BOOTSTRAP",
+      "sha256": "bd96b01a06545633a98ccd68290db919d399a424ef32b0f9c4c57a1ddb98deb9",
+      "url": "https://raw.githubusercontent.com/hadrex83/ORFMOS/main/boot/ORFMOS_BOOTSTRAP_V0_1.py"
+    }
+  ],
+  "entry_version": "0.1",
+  "execution_model": "HOST_GATE_THEN_DURABLE_BOOTSTRAP",
+  "host_provider": "COLAB",
+  "loader_semantics": "exec(compile(...), globals(), globals())",
+  "policy": {
+    "host_authorization_before_bootstrap": true,
+    "secret_values_persisted": false,
+    "verify_all_before_execute": true,
+    "write_authority": "NONE"
+  },
+  "publication_state": "IMMUTABLE",
+  "revision": "V0_1_CERTIFIED_COLAB_GATE_TO_DURABLE_BOOTSTRAP",
+  "schema": "ORFMOS_COLAB_ENTRY_MANIFEST_V0_1"
+}

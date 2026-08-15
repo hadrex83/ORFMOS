@@ -1,0 +1,67 @@
+{
+  "active_boot": {
+    "bios_revision": "R6_SHUTDOWN_CLIENT_HANDOFF_ACK",
+    "bios_version": "0.1.61-R6",
+    "boot_state": "COMPLETE",
+    "manifest_sha256": "18c74294439d84de07893fb029bdf154e38b8e9cd931e2a25965645ea8cc8895",
+    "module_count": 5,
+    "selector_generation": 1,
+    "selector_path": "boot/ORFMOS_ACTIVE_BOOT.json",
+    "selector_sha256": "6aa31d60e0105bd7bfa0b82c26fb46ec8cc3f9d0e1bdb3ac33e02429429761b4",
+    "verify_all_before_execute": true
+  },
+  "authority": {
+    "certification_result": "COLD_BOOT_CERTIFIED",
+    "human_entry": "STABLE_URL",
+    "machine_identity": "SHA256",
+    "provider": "GITHUB_RAW"
+  },
+  "certification_scope": "PERMANENT_HUMAN_ENTRY_TO_ACTIVE_BIOS",
+  "components": [
+    {
+      "authorized_requests": 1,
+      "bytes": 6335,
+      "core_boot_allowed": true,
+      "credential_output": "SUPPRESSED",
+      "execution_state": "LOADED",
+      "order": 10,
+      "path": "boot/host/v0.1/ORFMOS_COLAB_BOOT_AUTHORIZATION_GATE_V0_1.py",
+      "role": "HOST_AUTHORIZATION_GATE",
+      "runtime_state": "READY",
+      "sha256": "977f5a811b45722e9c2076633bf52db118ef952db5c4a264bc9f95b223ac4128",
+      "validation_state": "PASS"
+    },
+    {
+      "bytes": 10356,
+      "execution_state": "LOADED",
+      "order": 20,
+      "path": "boot/ORFMOS_BOOTSTRAP_V0_1.py",
+      "role": "DURABLE_BOOTSTRAP",
+      "sha256": "bd96b01a06545633a98ccd68290db919d399a424ef32b0f9c4c57a1ddb98deb9",
+      "validation_state": "PASS"
+    }
+  ],
+  "fresh_runtime_required": true,
+  "fresh_runtime_state": "CONFIRMED_BY_TEST_PROCEDURE",
+  "front_door": {
+    "completed_utc": "2026-08-15T02:59:16.310130+00:00",
+    "component_count": 2,
+    "entry_manifest_sha256": "4c277b81e37644b070e318ff607639dbb4c2413baa1bc51e16089a041e2cc151",
+    "entry_selector_generation": 1,
+    "entry_selector_sha256": "cca75b106fbb21ca24c52633a12828bbe6821b57a5a0272d841225617cc33d5c",
+    "loader_semantics": "exec(compile(...), globals(), globals())",
+    "revision": "V0_1_STABLE_COLAB_URL_SELECTOR_ENTRY_MANIFEST",
+    "state": "COMPLETE",
+    "validated_utc": "2026-08-15T02:58:52.045264+00:00",
+    "version": "0.1",
+    "write_authority": "NONE"
+  },
+  "observed_historical_home": {
+    "classification": "EXPECTED_ACTIVE_R6_MANIFEST_COMPONENT",
+    "front_door_failure": false,
+    "revision": "LIVE_URL_REVALIDATION",
+    "version": "0.1.6"
+  },
+  "schema": "ORFMOS_FRONT_DOOR_COLD_BOOT_CERTIFICATION_V0_1",
+  "state": "PASS"
+}

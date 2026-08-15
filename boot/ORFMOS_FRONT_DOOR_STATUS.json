@@ -9,6 +9,14 @@
     "selector_sha256": "6aa31d60e0105bd7bfa0b82c26fb46ec8cc3f9d0e1bdb3ac33e02429429761b4"
   },
   "authority": "PRESENTATION_ONLY",
+  "certification": {
+    "artifact_bytes": 2447,
+    "artifact_path": "boot/certification/v0.1/ORFMOS_FRONT_DOOR_COLD_BOOT_CERTIFICATION_20260815T025916Z.json",
+    "artifact_sha256": "c766e40f1184e85fb7dde9ab45f953cffc8e21cc9fb41e24e07ccc2451fb23ac",
+    "completed_utc": "2026-08-15T02:59:16.310130+00:00",
+    "scope": "PERMANENT_HUMAN_ENTRY_TO_ACTIVE_BIOS",
+    "state": "COLD_BOOT_CERTIFIED"
+  },
   "entry": {
     "bootstrap_sha256": "bd96b01a06545633a98ccd68290db919d399a424ef32b0f9c4c57a1ddb98deb9",
     "bootstrap_version": "0.1",
@@ -17,7 +25,7 @@
     "host_provider": "COLAB",
     "manifest_sha256": "4c277b81e37644b070e318ff607639dbb4c2413baa1bc51e16089a041e2cc151",
     "selector_generation": 1,
-    "selector_sha256_candidate": "cca75b106fbb21ca24c52633a12828bbe6821b57a5a0272d841225617cc33d5c"
+    "selector_sha256": "cca75b106fbb21ca24c52633a12828bbe6821b57a5a0272d841225617cc33d5c"
   },
   "machine_authority": {
     "boot_selector": "boot/ORFMOS_ACTIVE_BOOT.json",
@@ -25,7 +33,7 @@
     "identity": "SHA256"
   },
   "permanent_human_url": "https://colab.research.google.com/github/hadrex83/ORFMOS/blob/main/boot/ORFMOS_START.ipynb",
-  "schema": "ORFMOS_FRONT_DOOR_STATUS_V0_1",
-  "state": "CANDIDATE_READY_FOR_PUBLICATION",
-  "updated_utc": "2026-08-15T00:15:01.301853+00:00"
+  "schema": "ORFMOS_FRONT_DOOR_STATUS_V0_2",
+  "state": "ACTIVE_CERTIFIED",
+  "updated_utc": "2026-08-15T02:59:16.310130+00:00"
 }

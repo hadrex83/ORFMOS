@@ -1,0 +1,46 @@
+{
+  "schema": "ORFMOS_STABLE_HOME_PUBLICATION_RECORD_V0_1",
+  "state": "READY_FOR_PROVIDER_PUBLICATION",
+  "published_utc": "2026-08-15T18:40:59.044292+00:00",
+  "repository": "hadrex83/ORFMOS",
+  "branch": "main",
+  "stable_boot": {
+    "selector_path": "boot/ORFMOS_ACTIVE_BOOT.json",
+    "selector_generation_before": 1,
+    "selector_sha256_before": "6aa31d60e0105bd7bfa0b82c26fb46ec8cc3f9d0e1bdb3ac33e02429429761b4",
+    "selector_generation_after": 2,
+    "selector_sha256_after": "878edf2fed49f40d61f94eb23778bc1a856d2c5bca5956b750cc3bf553025c42",
+    "manifest_path": "bios/ORF_BIOS_MODULE_MANIFEST_V0_1_61_R7_HOME_R90_35.json",
+    "manifest_sha256": "3c9035f91d49e209c0c91a0c9782fdae7c50bb8beae9831fef30505bfd65eaca",
+    "bios_version": "0.1.61-R7",
+    "revision": "R7_STABLE_HOME_0_2_116_R90_35"
+  },
+  "runtime": {
+    "source": "GITHUB_IMMUTABLE_EXISTING",
+    "bundle": "0.1.61-R6",
+    "module_orders": [
+      10,
+      20,
+      30,
+      40
+    ],
+    "state": "REUSED_EXACT"
+  },
+  "home": {
+    "version": "0.2.116",
+    "generation": "R90.35",
+    "revision": "R90_35_UI_EDITOR_CORE_CLEANUP_TRUE_VIEWPORT_LIVE_PREVIEW",
+    "path": "bios/home/v0.2.116-r90.35/050_ORFMOS_HOME_DESKTOP_V0_2_116_R90_35_UI_EDITOR_CORE_CLEANUP_TRUE_VIEWPORT_LIVE_PREVIEW.py",
+    "bytes": 1110441,
+    "sha256": "32420f159585a37b51a1edbbe5ffc4482dac9f542b9d1803089907f1a289c5c2",
+    "drive_file_id": "1iruMS6Wzf-EntUQ21AHzSzJUZUL0zlAA",
+    "verification_state": "PASS",
+    "verification_report_drive_file_id": "1kMKVa_ILJVyaQmXGily2svMZfe09hosa"
+  },
+  "certification": {
+    "state": "PENDING_REAL_COLD_BOOT",
+    "previous_certification_artifact": "boot/certification/v0.1/ORFMOS_FRONT_DOOR_COLD_BOOT_CERTIFICATION_20260815T025916Z.json",
+    "policy": "DO_NOT_CLAIM_COLD_BOOT_CERTIFIED_UNTIL_REAL_BOOT_SUCCEEDS"
+  },
+  "authority": "SHA256_PLUS_PROVIDER_READBACK"
+}

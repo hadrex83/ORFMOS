@@ -1,0 +1,87 @@
+{
+  "schema": "ORF_BIOS_MODULE_MANIFEST_V0_1",
+  "bios_version": "0.1.61-R7",
+  "revision": "R7_STABLE_HOME_0_2_116_R90_35",
+  "authority": "ARTIFACT_PATH_PLUS_SHA256",
+  "provider_neutral": true,
+  "drive_mount_required": false,
+  "execution_model": "ORDERED_SHARED_GLOBALS",
+  "module_count": 5,
+  "source_provenance": {
+    "publication_role": "STABLE_GITHUB_BOOT_BUNDLE",
+    "published_utc": "2026-08-15T18:40:59.044292+00:00",
+    "previous_active_manifest": {
+      "path": "bios/v0.1.61-r6/ORF_BIOS_MODULE_MANIFEST.json",
+      "bytes": 2629,
+      "sha256": "18c74294439d84de07893fb029bdf154e38b8e9cd931e2a25965645ea8cc8895",
+      "bios_version": "0.1.61-R6",
+      "revision": "R6_SHUTDOWN_CLIENT_HANDOFF_ACK"
+    },
+    "runtime_lineage": {
+      "state": "REUSED_EXACT_IMMUTABLE_GITHUB_RUNTIME",
+      "source_bundle": "0.1.61-R6",
+      "orders": [
+        10,
+        20,
+        30,
+        40
+      ]
+    },
+    "home_lineage": {
+      "provider": "GOOGLE_DRIVE_VERIFIED_DEVELOPMENT",
+      "drive_file_id": "1iruMS6Wzf-EntUQ21AHzSzJUZUL0zlAA",
+      "file_name": "050_ORFMOS_HOME_DESKTOP_V0_2_116_R90_35_UI_EDITOR_CORE_CLEANUP_TRUE_VIEWPORT_LIVE_PREVIEW.py",
+      "bytes": 1110441,
+      "sha256": "32420f159585a37b51a1edbbe5ffc4482dac9f542b9d1803089907f1a289c5c2",
+      "home_version": "0.2.116",
+      "presentation_generation": "R90.35",
+      "revision": "R90_35_UI_EDITOR_CORE_CLEANUP_TRUE_VIEWPORT_LIVE_PREVIEW",
+      "verification_state": "PASS",
+      "verifier_drive_file_id": "1S-jVsF7JVdUj0GltLrXMWTsS4DOIzG_P",
+      "verification_basis_drive_file_id": "1jlfrfBuc0hh6ft4tMOqr3acKuxNAo4Ny",
+      "verification_report_drive_file_id": "1kMKVa_ILJVyaQmXGily2svMZfe09hosa"
+    }
+  },
+  "modules": [
+    {
+      "bytes": 101256,
+      "file_name": "010_ORF_BIOS_RUNTIME_BOOT_ROOT_V0_1_34_SHUTDOWN_CLIENT_HANDOFF_FIX.py",
+      "module_id": "010_ORF_BIOS_RUNTIME_BOOT_ROOT_V0_1_34_SHUTDOWN_CLIENT_HANDOFF_FIX",
+      "order": 10,
+      "path": "v0.1.61-r6/modules/010_ORF_BIOS_RUNTIME_BOOT_ROOT_V0_1_34_SHUTDOWN_CLIENT_HANDOFF_FIX.py",
+      "sha256": "a14d516dfdbc11534f10dda37b78b0c7a0d6a95e39e243329e7e5f0e1ca48685"
+    },
+    {
+      "bytes": 10547,
+      "file_name": "020_ORF_BIOS_STATE_CONTRACTS_V0_1_20_QUIESCE_SHUTDOWN.py",
+      "module_id": "020_ORF_BIOS_STATE_CONTRACTS_V0_1_20_QUIESCE_SHUTDOWN",
+      "order": 20,
+      "path": "v0.1.61-r6/modules/020_ORF_BIOS_STATE_CONTRACTS_V0_1_20_QUIESCE_SHUTDOWN.py",
+      "sha256": "f252d1aa964f43a99451a0d0bfe2f4965f8db8438c63d4b4c87854beb1d52bab"
+    },
+    {
+      "bytes": 194969,
+      "file_name": "030_ORF_BIOS_GRADIO_PRESENTATION_V0_1_61_R5_SHUTDOWN_CLIENT_HANDOFF_FIX.py",
+      "module_id": "030_ORF_BIOS_GRADIO_PRESENTATION_V0_1_61_R5_SHUTDOWN_CLIENT_HANDOFF_FIX",
+      "order": 30,
+      "path": "v0.1.61-r6/modules/030_ORF_BIOS_GRADIO_PRESENTATION_V0_1_61_R5_SHUTDOWN_CLIENT_HANDOFF_FIX.py",
+      "sha256": "def97023a8a1eff60746f47f46b66f375aa01b18b7cac8b38bfef5bee24dcd91"
+    },
+    {
+      "bytes": 26057,
+      "file_name": "040_ORF_BIOS_DEVELOPMENT_LAUNCH_V0_1_55_QUIESCE_SHUTDOWN.py",
+      "module_id": "040_ORF_BIOS_DEVELOPMENT_LAUNCH_V0_1_55_QUIESCE_SHUTDOWN",
+      "order": 40,
+      "path": "v0.1.61-r6/modules/040_ORF_BIOS_DEVELOPMENT_LAUNCH_V0_1_55_QUIESCE_SHUTDOWN.py",
+      "sha256": "83ded714b1609968cad40e422cf05a538225fa9524ebcbd33c66c5bdf2039719"
+    },
+    {
+      "bytes": 1110441,
+      "file_name": "050_ORFMOS_HOME_DESKTOP_V0_2_116_R90_35_UI_EDITOR_CORE_CLEANUP_TRUE_VIEWPORT_LIVE_PREVIEW.py",
+      "module_id": "050_ORFMOS_HOME_DESKTOP_V0_2_116_R90_35_UI_EDITOR_CORE_CLEANUP_TRUE_VIEWPORT_LIVE_PREVIEW",
+      "order": 50,
+      "path": "home/v0.2.116-r90.35/050_ORFMOS_HOME_DESKTOP_V0_2_116_R90_35_UI_EDITOR_CORE_CLEANUP_TRUE_VIEWPORT_LIVE_PREVIEW.py",
+      "sha256": "32420f159585a37b51a1edbbe5ffc4482dac9f542b9d1803089907f1a289c5c2"
+    }
+  ]
+}

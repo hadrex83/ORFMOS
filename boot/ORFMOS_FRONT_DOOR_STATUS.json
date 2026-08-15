@@ -1,21 +1,29 @@
 {
   "active_boot": {
-    "bios_revision": "R6_SHUTDOWN_CLIENT_HANDOFF_ACK",
-    "bios_version": "0.1.61-R6",
-    "certified_completed_utc": "2026-08-14T23:58:11.675604+00:00",
-    "cold_boot_authority": "CERTIFIED",
-    "manifest_sha256": "18c74294439d84de07893fb029bdf154e38b8e9cd931e2a25965645ea8cc8895",
-    "selector_generation": 1,
-    "selector_sha256": "6aa31d60e0105bd7bfa0b82c26fb46ec8cc3f9d0e1bdb3ac33e02429429761b4"
+    "bios_revision": "R7_STABLE_HOME_0_2_116_R90_35",
+    "bios_version": "0.1.61-R7",
+    "cold_boot_authority": "PENDING_CERTIFICATION",
+    "manifest_sha256": "3c9035f91d49e209c0c91a0c9782fdae7c50bb8beae9831fef30505bfd65eaca",
+    "selector_generation": 2,
+    "selector_sha256": "878edf2fed49f40d61f94eb23778bc1a856d2c5bca5956b750cc3bf553025c42",
+    "published_utc": "2026-08-15T18:40:59.044292+00:00",
+    "home_version": "0.2.116",
+    "home_generation": "R90.35",
+    "home_sha256": "32420f159585a37b51a1edbbe5ffc4482dac9f542b9d1803089907f1a289c5c2"
   },
   "authority": "PRESENTATION_ONLY",
   "certification": {
-    "artifact_bytes": 2447,
-    "artifact_path": "boot/certification/v0.1/ORFMOS_FRONT_DOOR_COLD_BOOT_CERTIFICATION_20260815T025916Z.json",
-    "artifact_sha256": "c766e40f1184e85fb7dde9ab45f953cffc8e21cc9fb41e24e07ccc2451fb23ac",
-    "completed_utc": "2026-08-15T02:59:16.310130+00:00",
+    "state": "PENDING_COLD_BOOT_CERTIFICATION",
     "scope": "PERMANENT_HUMAN_ENTRY_TO_ACTIVE_BIOS",
-    "state": "COLD_BOOT_CERTIFIED"
+    "required_action": "REAL_COLD_BOOT_AND_IMMUTABLE_CERTIFICATE_PUBLICATION",
+    "previous_certification": {
+      "artifact_bytes": 2447,
+      "artifact_path": "boot/certification/v0.1/ORFMOS_FRONT_DOOR_COLD_BOOT_CERTIFICATION_20260815T025916Z.json",
+      "artifact_sha256": "c766e40f1184e85fb7dde9ab45f953cffc8e21cc9fb41e24e07ccc2451fb23ac",
+      "completed_utc": "2026-08-15T02:59:16.310130+00:00",
+      "scope": "PERMANENT_HUMAN_ENTRY_TO_ACTIVE_BIOS",
+      "state": "COLD_BOOT_CERTIFIED"
+    }
   },
   "entry": {
     "bootstrap_sha256": "bd96b01a06545633a98ccd68290db919d399a424ef32b0f9c4c57a1ddb98deb9",
@@ -34,6 +42,6 @@
   },
   "permanent_human_url": "https://colab.research.google.com/github/hadrex83/ORFMOS/blob/main/boot/ORFMOS_START.ipynb",
   "schema": "ORFMOS_FRONT_DOOR_STATUS_V0_2",
-  "state": "ACTIVE_CERTIFIED",
-  "updated_utc": "2026-08-15T02:59:16.310130+00:00"
+  "state": "ACTIVE_UNCERTIFIED_PENDING_COLD_BOOT",
+  "updated_utc": "2026-08-15T18:40:59.044292+00:00"
 }

@@ -1,0 +1,27 @@
+{
+  "authority": "MUTABLE_SELECTOR_TO_IMMUTABLE_ENTRY_MANIFEST",
+  "branch": "main",
+  "created_utc": "2026-08-15T00:15:01.301853+00:00",
+  "manifest": {
+    "bytes": 1378,
+    "entry_version": "0.1",
+    "path": "boot/entry/v0.1/ORFMOS_COLAB_ENTRY_MANIFEST.json",
+    "publication_state": "IMMUTABLE",
+    "revision": "V0_1_CERTIFIED_COLAB_GATE_TO_DURABLE_BOOTSTRAP",
+    "sha256": "4c277b81e37644b070e318ff607639dbb4c2413baa1bc51e16089a041e2cc151",
+    "url": "https://raw.githubusercontent.com/hadrex83/ORFMOS/main/boot/entry/v0.1/ORFMOS_COLAB_ENTRY_MANIFEST.json"
+  },
+  "policy": {
+    "allowed_host": "raw.githubusercontent.com",
+    "allowed_repository": "hadrex83/ORFMOS",
+    "host_provider": "COLAB",
+    "loader_semantics": "exec(compile(...), globals(), globals())",
+    "verify_all_before_execute": true,
+    "write_authority": "NONE"
+  },
+  "provider": "GITHUB_RAW",
+  "repository": "hadrex83/ORFMOS",
+  "schema": "ORFMOS_ENTRY_SELECTOR_V0_1",
+  "selector_generation": 1,
+  "state": "ACTIVE"
+}

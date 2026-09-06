@@ -1,0 +1,20 @@
+{
+  "bootstrap_candidate_sha256": "bacfebdc62ac89d5f5aae8a9576c51fec47af2419530128603df8554005a7af7",
+  "bootstrap_parent_sha256": "21bc96f64d411e4915e10a20a2a066d5f19c883283c62370ce7afa8619b8ad6c",
+  "candidate_version": "0.2.2",
+  "change": "REMOVE_DUPLICATE_RUNTIME_MODULE_REALIZATION",
+  "entrypoint_bytes_changed": 0,
+  "manifest_candidate_sha256": "027c91e87f2bedd186837a811bb3a5ea8fabf5338131099897541a4a5978a496",
+  "module_bytes_changed": 0,
+  "module_count": 6,
+  "module_realization": "VERIFIED_SOURCE_REFERENCE",
+  "parent_version": "0.2.1",
+  "runtime_module_copy": false,
+  "schema": "ORF_KERNEL_V0_2_2_CANDIDATE_BUILD_RECEIPT_V0_1",
+  "validation": {
+    "all_python_sources_compile": true,
+    "entrypoint_hash_matches_candidate_manifest": true,
+    "module_hashes_match_candidate_manifest": true,
+    "no_module_runtime_copy_path_dependency": true
+  }
+}

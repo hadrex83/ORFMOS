@@ -1,0 +1,7 @@
+NLERM_CHATGPT_ARTIFACT_PROBE_V0_1
+source=ChatGPT sandbox
+staging=GitHub feature branch
+intended_destination=NLERM local intake
+execution_authorized=false
+transfer_is_not_execution=true
+payload=harmless transport verification
